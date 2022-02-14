@@ -1,0 +1,19 @@
+/*
+* @package Housebuild
+* @copyright (C) 2015 by Joomlastars - All rights reserved!
+* @license GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.html)
+* @author Joomlastars <stars.joomla@gmail.com>
+* @authorurl <http://themeforest.net/user/joomlastars>
+*/
+
+
+/* Css for home page only */
+
+.news-section {
+  padding: 50px 0 30px;
+  background: #f1f1f1;
+}
+
+.about-section {
+  padding: 60px 0;
+}

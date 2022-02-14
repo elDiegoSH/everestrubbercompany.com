@@ -1,0 +1,745 @@
+/*
+* @package Housebuild
+* @copyright (C) 2015 by Joomlastars - All rights reserved!
+* @license GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.html)
+* @author Joomlastars <stars.joomla@gmail.com>
+* @authorurl <http://themeforest.net/user/joomlastars>
+*/
+
+/*-------------------------------------------------*/
+/* =  Yellow skin
+/*-------------------------------------------------*/
+
+body.yellow .navbar-brand span,
+body.yellow .top-line p span i,
+body.yellow .top-line ul.social-icons li a:hover,
+body.yellow .navbar-nav > li > a:hover,
+body.yellow .navbar-nav > li > a.active,
+body.yellow .navbar-nav li.drop ul.dropdown li a:hover,
+body.yellow header.active .navbar-nav > li > a:hover,
+body.yellow header.active .navbar-nav > li > a.active,
+body.yellow .title-section h1 span,
+body.yellow #home-section .tp-caption.finewide_medium_white span,
+body.yellow #home-section .tp-caption a.trans-btn:hover,
+body.yellow #home-section .tp-caption a.trans-btn2,
+body.yellow .services-offer-section .offer-post h2 a:hover,
+body.yellow .project-box .project-post .hover-box h2 a:hover,
+body.yellow .tab-posts-box ul.nav-tabs li a:hover,
+body.yellow .testimonial-section .testimonial-box h2,
+body.yellow .news-section .news-post h2 a:hover,
+body.yellow .news-section .news-post > a:hover,
+body.yellow .flexslider .flexcaption .inner-caption h1,
+body.yellow .services-offer-section2 .services-post a,
+body.yellow .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.yellow .presentation-section .presentation-line a:hover,
+body.yellow .team-section .team-post span,
+body.yellow .services-page-section .contact-info ul.information-list li i,
+body.yellow .services-page-section .services-wrapp .services-post a:hover,
+body.yellow .blog-section .blog-box .blog-post h2 a:hover,
+body.yellow .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.yellow .blog-section .blog-box ul.pagination-list li a:hover,
+body.yellow .blog-section .blog-box ul.pagination-list li a.active,
+body.yellow .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.yellow .sidebar ul.category-list li a:hover,
+body.yellow .sidebar ul.archieve-list li a:hover,
+body.yellow .single-page-section .project-content-box ul li i,
+body.yellow footer .up-footer ul.navigation li a:hover,
+body.yellow footer .up-footer .info-widget p span,
+body.yellow .inner-switcher ul li a:hover {
+	color: #ffba00 !important;
+}
+
+body.yellow .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #ffba00;
+}
+
+body.yellow .form-search,
+body.yellow #home-section .tp-caption.small_text.backgroun-col,
+body.yellow .banner-section,
+body.yellow .flex-direction-nav .flex-next:hover,
+body.yellow .flex-direction-nav .flex-prev:hover,
+body.yellow .services-page-section ul.side-navigation-list li a:hover,
+body.yellow .services-page-section ul.side-navigation-list li a.active,
+body.yellow .projects-page-section .project-box .project-post .hover-box,
+body.yellow .sidebar ul.tags-list li a:hover,
+body.yellow #contact-form input[type="submit"],
+body.yellow .comment-form input[type="submit"],
+body.yellow .error-section a:hover,
+body.yellow .free-quote-section form input[type="submit"],
+body.yellow footer p.copyright, body.yellow .loadmoreitem , body.yellow .pagination li a , body.yellow .pagination li span,
+body.yellow .icon-edit , body.yellow #scrollToTop:hover{
+	background: #ffba00;
+}
+
+body.yellow #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #ffba00;
+}
+
+body.yellow #home-section .tp-caption a.trans-btn2:hover,
+body.yellow .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #ffba00;
+}
+body.yellow .projects-section ul.filter li a.active,
+body.yellow .projects-section ul.filter li a:hover,
+body.yellow .projects-page-section ul.filter li a.active,
+body.yellow .projects-page-section ul.filter li a:hover {
+  color: #ffba00;
+  border-bottom: 2px solid #ffba00;
+}
+
+body.yellow .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #ffba00;
+  border-color: #ffba00;
+}
+
+body.yellow .accord-elem.active .accord-title h2,
+body.yellow footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #ffba00;
+  background: #ffba00;
+}
+
+body.yellow .tables-page-section .table thead th {
+  background: #ffba00 !important;
+}
+
+body.yellow #contact-form input[type="text"]:focus,
+body.yellow .comment-form input[type="text"]:focus,
+body.yellow #contact-form textarea:focus,
+body.yellow .comment-form textarea:focus,
+body.yellow .free-quote-section form input[type="text"]:focus,
+body.yellow .free-quote-section form textarea:focus,
+body.yellow .free-quote-section form select:focus {
+  border: 1px solid #ffba00;
+}
+
+body.yellow .error-section a {
+  border-color: #ffba00;
+  color: #ffba00;
+}
+
+/*-------------------------------------------------*/
+/* =  blue skin
+/*-------------------------------------------------*/
+
+body.blue .navbar-brand span,
+body.blue .top-line p span i,
+body.blue .top-line ul.social-icons li a:hover,
+body.blue .navbar-nav > li > a:hover,
+body.blue .navbar-nav > li > a.active,
+body.blue .navbar-nav li.drop ul.dropdown li a:hover,
+body.blue header.active .navbar-nav > li > a:hover,
+body.blue header.active .navbar-nav > li > a.active,
+body.blue .title-section h1 span,
+body.blue #home-section .tp-caption.finewide_medium_white span,
+body.blue #home-section .tp-caption a.trans-btn:hover,
+body.blue #home-section .tp-caption a.trans-btn2,
+body.blue .services-offer-section .offer-post h2 a:hover,
+body.blue .project-box .project-post .hover-box h2 a:hover,
+body.blue .tab-posts-box ul.nav-tabs li a:hover,
+body.blue .testimonial-section .testimonial-box h2,
+body.blue .news-section .news-post h2 a:hover,
+body.blue .news-section .news-post > a:hover,
+body.blue .flexslider .flexcaption .inner-caption h1,
+body.blue .services-offer-section2 .services-post a,
+body.blue .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.blue .presentation-section .presentation-line a:hover,
+body.blue .team-section .team-post span,
+body.blue .services-page-section .contact-info ul.information-list li i,
+body.blue .services-page-section .services-wrapp .services-post a:hover,
+body.blue .blog-section .blog-box .blog-post h2 a:hover,
+body.blue .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.blue .blog-section .blog-box ul.pagination-list li a:hover,
+body.blue .blog-section .blog-box ul.pagination-list li a.active,
+body.blue .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.blue .sidebar ul.category-list li a:hover,
+body.blue .sidebar ul.archieve-list li a:hover,
+body.blue .single-page-section .project-content-box ul li i,
+body.blue footer .up-footer ul.navigation li a:hover,
+body.blue footer .up-footer .info-widget p span,
+body.blue .inner-switcher ul li a:hover {
+	color: #3f80d0 !important;
+}
+
+body.blue .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #3f80d0;
+}
+
+body.blue .form-search,
+body.blue #home-section .tp-caption.small_text.backgroun-col,
+body.blue .banner-section,
+body.blue .flex-direction-nav .flex-next:hover,
+body.blue .flex-direction-nav .flex-prev:hover,
+body.blue .services-page-section ul.side-navigation-list li a:hover,
+body.blue .services-page-section ul.side-navigation-list li a.active,
+body.blue .projects-page-section .project-box .project-post .hover-box,
+body.blue .sidebar ul.tags-list li a:hover,
+body.blue #contact-form input[type="submit"],
+body.blue .comment-form input[type="submit"],
+body.blue .error-section a:hover,
+body.blue .free-quote-section form input[type="submit"],
+body.blue footer p.copyright , body.blue .loadmoreitem, body.blue .pagination li a , body.blue .pagination li span, body.blue .icon-edit , body.blue #scrollToTop:hover{
+	background: #3f80d0;
+}
+
+body.blue #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #3f80d0;
+}
+
+body.blue #home-section .tp-caption a.trans-btn2:hover,
+body.blue .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #3f80d0;
+}
+body.blue .projects-section ul.filter li a.active,
+body.blue .projects-section ul.filter li a:hover,
+body.blue .projects-page-section ul.filter li a.active,
+body.blue .projects-page-section ul.filter li a:hover {
+  color: #3f80d0;
+  border-bottom: 2px solid #3f80d0;
+}
+
+body.blue .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #3f80d0;
+  border-color: #3f80d0;
+}
+
+body.blue .accord-elem.active .accord-title h2,
+body.blue footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #3f80d0;
+  background: #3f80d0;
+}
+
+body.blue .tables-page-section .table thead th {
+  background: #3f80d0 !important;
+}
+
+body.blue #contact-form input[type="text"]:focus,
+body.blue .comment-form input[type="text"]:focus,
+body.blue #contact-form textarea:focus,
+body.blue .comment-form textarea:focus,
+body.blue .free-quote-section form input[type="text"]:focus,
+body.blue .free-quote-section form textarea:focus,
+body.blue .free-quote-section form select:focus {
+  border: 1px solid #3f80d0;
+}
+
+body.blue .error-section a {
+  border-color: #3f80d0;
+  color: #3f80d0;
+}
+
+/*-------------------------------------------------*/
+/* =  red skin
+/*-------------------------------------------------*/
+
+body.red .navbar-brand span,
+body.red .top-line p span i,
+body.red .top-line ul.social-icons li a:hover,
+body.red .navbar-nav > li > a:hover,
+body.red .navbar-nav > li > a.active,
+body.red .navbar-nav li.drop ul.dropdown li a:hover,
+body.red header.active .navbar-nav > li > a:hover,
+body.red header.active .navbar-nav > li > a.active,
+body.red .title-section h1 span,
+body.red #home-section .tp-caption.finewide_medium_white span,
+body.red #home-section .tp-caption a.trans-btn:hover,
+body.red #home-section .tp-caption a.trans-btn2,
+body.red .services-offer-section .offer-post h2 a:hover,
+body.red .project-box .project-post .hover-box h2 a:hover,
+body.red .tab-posts-box ul.nav-tabs li a:hover,
+body.red .testimonial-section .testimonial-box h2,
+body.red .news-section .news-post h2 a:hover,
+body.red .news-section .news-post > a:hover,
+body.red .flexslider .flexcaption .inner-caption h1,
+body.red .services-offer-section2 .services-post a,
+body.red .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.red .presentation-section .presentation-line a:hover,
+body.red .team-section .team-post span,
+body.red .services-page-section .contact-info ul.information-list li i,
+body.red .services-page-section .services-wrapp .services-post a:hover,
+body.red .blog-section .blog-box .blog-post h2 a:hover,
+body.red .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.red .blog-section .blog-box ul.pagination-list li a:hover,
+body.red .blog-section .blog-box ul.pagination-list li a.active,
+body.red .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.red .sidebar ul.category-list li a:hover,
+body.red .sidebar ul.archieve-list li a:hover,
+body.red .single-page-section .project-content-box ul li i,
+body.red footer .up-footer ul.navigation li a:hover,
+body.red footer .up-footer .info-widget p span,
+body.red .inner-switcher ul li a:hover {
+	color: #fb2b2b !important;
+}
+
+body.red .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #fb2b2b;
+}
+
+body.red .form-search,
+body.red #home-section .tp-caption.small_text.backgroun-col,
+body.red .banner-section,
+body.red .flex-direction-nav .flex-next:hover,
+body.red .flex-direction-nav .flex-prev:hover,
+body.red .services-page-section ul.side-navigation-list li a:hover,
+body.red .services-page-section ul.side-navigation-list li a.active,
+body.red .projects-page-section .project-box .project-post .hover-box,
+body.red .sidebar ul.tags-list li a:hover,
+body.red #contact-form input[type="submit"],
+body.red .comment-form input[type="submit"],
+body.red .error-section a:hover,
+body.red .free-quote-section form input[type="submit"],
+body.red footer p.copyright, body.red .loadmoreitem, body.red .pagination li a , body.red .pagination li span, body.red .icon-edit, body.red #scrollToTop:hover {
+	background: #fb2b2b;
+}
+
+body.red #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #fb2b2b;
+}
+
+body.red #home-section .tp-caption a.trans-btn2:hover,
+body.red .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #fb2b2b;
+}
+body.red .projects-section ul.filter li a.active,
+body.red .projects-section ul.filter li a:hover,
+body.red .projects-page-section ul.filter li a.active,
+body.red .projects-page-section ul.filter li a:hover {
+  color: #fb2b2b;
+  border-bottom: 2px solid #fb2b2b;
+}
+
+body.red .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #fb2b2b;
+  border-color: #fb2b2b;
+}
+
+body.red .accord-elem.active .accord-title h2,
+body.red footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #fb2b2b;
+  background: #fb2b2b;
+}
+
+body.red .tables-page-section .table thead th {
+  background: #fb2b2b !important;
+}
+
+body.red #contact-form input[type="text"]:focus,
+body.red .comment-form input[type="text"]:focus,
+body.red #contact-form textarea:focus,
+body.red .comment-form textarea:focus,
+body.red .free-quote-section form input[type="text"]:focus,
+body.red .free-quote-section form textarea:focus,
+body.red .free-quote-section form select:focus {
+  border: 1px solid #fb2b2b;
+}
+
+body.red .error-section a {
+  border-color: #fb2b2b;
+  color: #fb2b2b;
+}
+
+/*-------------------------------------------------*/
+/* =  orange skin
+/*-------------------------------------------------*/
+
+body.orange .navbar-brand span,
+body.orange .top-line p span i,
+body.orange .top-line ul.social-icons li a:hover,
+body.orange .navbar-nav > li > a:hover,
+body.orange .navbar-nav > li > a.active,
+body.orange .navbar-nav li.drop ul.dropdown li a:hover,
+body.orange header.active .navbar-nav > li > a:hover,
+body.orange header.active .navbar-nav > li > a.active,
+body.orange .title-section h1 span,
+body.orange #home-section .tp-caption.finewide_medium_white span,
+body.orange #home-section .tp-caption a.trans-btn:hover,
+body.orange #home-section .tp-caption a.trans-btn2,
+body.orange .services-offer-section .offer-post h2 a:hover,
+body.orange .project-box .project-post .hover-box h2 a:hover,
+body.orange .tab-posts-box ul.nav-tabs li a:hover,
+body.orange .testimonial-section .testimonial-box h2,
+body.orange .news-section .news-post h2 a:hover,
+body.orange .news-section .news-post > a:hover,
+body.orange .flexslider .flexcaption .inner-caption h1,
+body.orange .services-offer-section2 .services-post a,
+body.orange .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.orange .presentation-section .presentation-line a:hover,
+body.orange .team-section .team-post span,
+body.orange .services-page-section .contact-info ul.information-list li i,
+body.orange .services-page-section .services-wrapp .services-post a:hover,
+body.orange .blog-section .blog-box .blog-post h2 a:hover,
+body.orange .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.orange .blog-section .blog-box ul.pagination-list li a:hover,
+body.orange .blog-section .blog-box ul.pagination-list li a.active,
+body.orange .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.orange .sidebar ul.category-list li a:hover,
+body.orange .sidebar ul.archieve-list li a:hover,
+body.orange .single-page-section .project-content-box ul li i,
+body.orange footer .up-footer ul.navigation li a:hover,
+body.orange footer .up-footer .info-widget p span,
+body.orange .inner-switcher ul li a:hover {
+	color: #f27835 !important;
+}
+
+body.orange .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #f27835;
+}
+
+body.orange .form-search,
+body.orange #home-section .tp-caption.small_text.backgroun-col,
+body.orange .banner-section,
+body.orange .flex-direction-nav .flex-next:hover,
+body.orange .flex-direction-nav .flex-prev:hover,
+body.orange .services-page-section ul.side-navigation-list li a:hover,
+body.orange .services-page-section ul.side-navigation-list li a.active,
+body.orange .projects-page-section .project-box .project-post .hover-box,
+body.orange .sidebar ul.tags-list li a:hover,
+body.orange #contact-form input[type="submit"],
+body.orange .comment-form input[type="submit"],
+body.orange .error-section a:hover,
+body.orange .free-quote-section form input[type="submit"],
+body.orange footer p.copyright, body.orange .loadmoreitem, body.orange .pagination li a , body.orange .pagination li span,body.orange .icon-edit, body.orange #scrollToTop:hover {
+	background: #f27835;
+}
+
+body.orange #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #f27835;
+}
+
+body.orange #home-section .tp-caption a.trans-btn2:hover,
+body.orange .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #f27835;
+}
+body.orange .projects-section ul.filter li a.active,
+body.orange .projects-section ul.filter li a:hover,
+body.orange .projects-page-section ul.filter li a.active,
+body.orange .projects-page-section ul.filter li a:hover {
+  color: #f27835;
+  border-bottom: 2px solid #f27835;
+}
+
+body.orange .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #f27835;
+  border-color: #f27835;
+}
+
+body.orange .accord-elem.active .accord-title h2,
+body.orange footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #f27835;
+  background: #f27835;
+}
+
+body.orange .tables-page-section .table thead th {
+  background: #f27835 !important;
+}
+
+body.orange #contact-form input[type="text"]:focus,
+body.orange .comment-form input[type="text"]:focus,
+body.orange #contact-form textarea:focus,
+body.orange .comment-form textarea:focus,
+body.orange .free-quote-section form input[type="text"]:focus,
+body.orange .free-quote-section form textarea:focus,
+body.orange .free-quote-section form select:focus {
+  border: 1px solid #f27835;
+}
+
+body.orange .error-section a {
+  border-color: #f27835;
+  color: #f27835;
+}
+
+/*-------------------------------------------------*/
+/* =  green skin
+/*-------------------------------------------------*/
+
+body.green .navbar-brand span,
+body.green .top-line p span i,
+body.green .top-line ul.social-icons li a:hover,
+body.green .navbar-nav > li > a:hover,
+body.green .navbar-nav > li > a.active,
+body.green .navbar-nav li.drop ul.dropdown li a:hover,
+body.green header.active .navbar-nav > li > a:hover,
+body.green header.active .navbar-nav > li > a.active,
+body.green .title-section h1 span,
+body.green #home-section .tp-caption.finewide_medium_white span,
+body.green #home-section .tp-caption a.trans-btn:hover,
+body.green #home-section .tp-caption a.trans-btn2,
+body.green .services-offer-section .offer-post h2 a:hover,
+body.green .project-box .project-post .hover-box h2 a:hover,
+body.green .tab-posts-box ul.nav-tabs li a:hover,
+body.green .testimonial-section .testimonial-box h2,
+body.green .news-section .news-post h2 a:hover,
+body.green .news-section .news-post > a:hover,
+body.green .flexslider .flexcaption .inner-caption h1,
+body.green .services-offer-section2 .services-post a,
+body.green .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.green .presentation-section .presentation-line a:hover,
+body.green .team-section .team-post span,
+body.green .services-page-section .contact-info ul.information-list li i,
+body.green .services-page-section .services-wrapp .services-post a:hover,
+body.green .blog-section .blog-box .blog-post h2 a:hover,
+body.green .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.green .blog-section .blog-box ul.pagination-list li a:hover,
+body.green .blog-section .blog-box ul.pagination-list li a.active,
+body.green .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.green .sidebar ul.category-list li a:hover,
+body.green .sidebar ul.archieve-list li a:hover,
+body.green .single-page-section .project-content-box ul li i,
+body.green footer .up-footer ul.navigation li a:hover,
+body.green footer .up-footer .info-widget p span,
+body.green .inner-switcher ul li a:hover {
+	color: #1bbc9b !important;
+}
+
+body.green .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #1bbc9b;
+}
+
+body.green .form-search,
+body.green #home-section .tp-caption.small_text.backgroun-col,
+body.green .banner-section,
+body.green .flex-direction-nav .flex-next:hover,
+body.green .flex-direction-nav .flex-prev:hover,
+body.green .services-page-section ul.side-navigation-list li a:hover,
+body.green .services-page-section ul.side-navigation-list li a.active,
+body.green .projects-page-section .project-box .project-post .hover-box,
+body.green .sidebar ul.tags-list li a:hover,
+body.green #contact-form input[type="submit"],
+body.green .comment-form input[type="submit"],
+body.green .error-section a:hover,
+body.green .free-quote-section form input[type="submit"],
+body.green footer p.copyright, body.green .loadmoreitem, body.green .pagination li a , body.green .pagination li span, body.green .icon-edit, body.green #scrollToTop:hover {
+	background: #1bbc9b;
+}
+
+body.green #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #1bbc9b;
+}
+
+body.green #home-section .tp-caption a.trans-btn2:hover,
+body.green .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #1bbc9b;
+}
+body.green .projects-section ul.filter li a.active,
+body.green .projects-section ul.filter li a:hover,
+body.green .projects-page-section ul.filter li a.active,
+body.green .projects-page-section ul.filter li a:hover {
+  color: #1bbc9b;
+  border-bottom: 2px solid #1bbc9b;
+}
+
+body.green .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #1bbc9b;
+  border-color: #1bbc9b;
+}
+
+body.green .accord-elem.active .accord-title h2,
+body.green footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #1bbc9b;
+  background: #1bbc9b;
+}
+
+body.green .tables-page-section .table thead th {
+  background: #1bbc9b !important;
+}
+
+body.green #contact-form input[type="text"]:focus,
+body.green .comment-form input[type="text"]:focus,
+body.green #contact-form textarea:focus,
+body.green .comment-form textarea:focus,
+body.green .free-quote-section form input[type="text"]:focus,
+body.green .free-quote-section form textarea:focus,
+body.green .free-quote-section form select:focus {
+  border: 1px solid #1bbc9b;
+}
+
+body.green .error-section a {
+  border-color: #1bbc9b;
+  color: #1bbc9b;
+}
+
+/*-------------------------------------------------*/
+/* =  blue2 skin
+/*-------------------------------------------------*/
+
+body.blue2 .navbar-brand span,
+body.blue2 .top-line p span i,
+body.blue2 .top-line ul.social-icons li a:hover,
+body.blue2 .navbar-nav > li > a:hover,
+body.blue2 .navbar-nav > li > a.active,
+body.blue2 .navbar-nav li.drop ul.dropdown li a:hover,
+body.blue2 header.active .navbar-nav > li > a:hover,
+body.blue2 header.active .navbar-nav > li > a.active,
+body.blue2 .title-section h1 span,
+body.blue2 #home-section .tp-caption.finewide_medium_white span,
+body.blue2 #home-section .tp-caption a.trans-btn:hover,
+body.blue2 #home-section .tp-caption a.trans-btn2,
+body.blue2 .services-offer-section .offer-post h2 a:hover,
+body.blue2 .project-box .project-post .hover-box h2 a:hover,
+body.blue2 .tab-posts-box ul.nav-tabs li a:hover,
+body.blue2 .testimonial-section .testimonial-box h2,
+body.blue2 .news-section .news-post h2 a:hover,
+body.blue2 .news-section .news-post > a:hover,
+body.blue2 .flexslider .flexcaption .inner-caption h1,
+body.blue2 .services-offer-section2 .services-post a,
+body.blue2 .projects-section2 .project-box .project-post .hover-box h2 a:hover,
+body.blue2 .presentation-section .presentation-line a:hover,
+body.blue2 .team-section .team-post span,
+body.blue2 .services-page-section .contact-info ul.information-list li i,
+body.blue2 .services-page-section .services-wrapp .services-post a:hover,
+body.blue2 .blog-section .blog-box .blog-post h2 a:hover,
+body.blue2 .blog-section .blog-box .blog-post .post-content-text > a:hover,
+body.blue2 .blog-section .blog-box ul.pagination-list li a:hover,
+body.blue2 .blog-section .blog-box ul.pagination-list li a.active,
+body.blue2 .blog-section .blog-box .comment-section ul li .comment-box .comment-content h4 a:hover,
+body.blue2 .sidebar ul.category-list li a:hover,
+body.blue2 .sidebar ul.archieve-list li a:hover,
+body.blue2 .single-page-section .project-content-box ul li i,
+body.blue2 footer .up-footer ul.navigation li a:hover,
+body.blue2 footer .up-footer .info-widget p span,
+body.blue2 .inner-switcher ul li a:hover {
+	color: #67bacc !important;
+}
+
+body.blue2 .navbar-nav li.drop ul.dropdown {
+	border-top: 2px solid #67bacc;
+}
+
+body.blue2 .form-search,
+body.blue2 #home-section .tp-caption.small_text.backgroun-col,
+body.blue2 .banner-section,
+body.blue2 .flex-direction-nav .flex-next:hover,
+body.blue2 .flex-direction-nav .flex-prev:hover,
+body.blue2 .services-page-section ul.side-navigation-list li a:hover,
+body.blue2 .services-page-section ul.side-navigation-list li a.active,
+body.blue2 .projects-page-section .project-box .project-post .hover-box,
+body.blue2 .sidebar ul.tags-list li a:hover,
+body.blue2 #contact-form input[type="submit"],
+body.blue2 .comment-form input[type="submit"],
+body.blue2 .error-section a:hover,
+body.blue2 .free-quote-section form input[type="submit"],
+body.blue2 footer p.copyright, body.blue2 .loadmoreitem, body.blue2 .pagination li a , body.blue2 .pagination li span, body.blue2 .icon-edit , body.blue2 #scrollToTop:hover{
+	background: #67bacc;
+}
+
+body.blue2 #home-section .tp-caption a.trans-btn:hover {
+  border: 2px solid #67bacc;
+}
+
+body.blue2 #home-section .tp-caption a.trans-btn2:hover,
+body.blue2 .tab-posts-box ul.nav-tabs li.active a {
+  color: #ffffff !important;
+  background: #67bacc;
+}
+body.blue2 .projects-section ul.filter li a.active,
+body.blue2 .projects-section ul.filter li a:hover,
+body.blue2 .projects-page-section ul.filter li a.active,
+body.blue2 .projects-page-section ul.filter li a:hover {
+  color: #67bacc;
+  border-bottom: 2px solid #67bacc;
+}
+
+body.blue2 .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #67bacc;
+  border-color: #67bacc;
+}
+
+body.blue2 .accord-elem.active .accord-title h2,
+body.blue2 footer .up-footer ul.tag-list li a:hover {
+  border: 1px solid #67bacc;
+  background: #67bacc;
+}
+
+body.blue2 .tables-page-section .table thead th {
+  background: #67bacc !important;
+}
+
+body.blue2 #contact-form input[type="text"]:focus,
+body.blue2 .comment-form input[type="text"]:focus,
+body.blue2 #contact-form textarea:focus,
+body.blue2 .comment-form textarea:focus,
+body.blue2 .free-quote-section form input[type="text"]:focus,
+body.blue2 .free-quote-section form textarea:focus,
+body.blue2 .free-quote-section form select:focus {
+  border: 1px solid #67bacc;
+}
+
+body.blue2 .error-section a {
+  border-color: #67bacc;
+  color: #67bacc;
+}
+
+/*-------------------------------------------------*/
+/* =  pattern switcher
+/*-------------------------------------------------*/
+
+body {
+  background: #f8f8f8;
+}
+
+body.patt1 {
+  background: url('../images/patterns/patt1.jpg');
+}
+
+body.patt1 #container,
+body.patt5 #container,
+body.patt7 #container {
+  box-shadow: 0 0 8px #222;
+  -webkit-box-shadow: 0 0 8px #222;
+  -moz-box-shadow: 0 0 8px #222;
+  -o-box-shadow: 0 0 8px #222;
+}
+body.patt9 #container {
+  box-shadow: 0 0 8px #777;
+  -webkit-box-shadow: 0 0 8px #777;
+  -moz-box-shadow: 0 0 8px #777;
+  -o-box-shadow: 0 0 8px #777;
+}
+
+body.patt2 {
+  background: url('../images/patterns/patt2.png');
+}
+
+body.patt3 {
+  background: url('../images/patterns/patt3.png');
+}
+
+body.patt4 {
+  background: url('../images/patterns/patt4.png');
+}
+
+body.patt5 {
+  background: url('../images/patterns/patt5.png');
+}
+
+body.patt6 {
+  background: url('../images/patterns/patt6.png');
+}
+
+body.patt7 {
+  background: url('../upload/slide/1.jpg') center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+body.patt8 {
+  background: url('../upload/others/patt1.jpg') center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+body.patt9 {
+  background: url('../upload/others/patt2.jpg') center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
