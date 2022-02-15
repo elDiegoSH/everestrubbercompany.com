@@ -244,7 +244,7 @@ website:    http://www.themepunch.com
 
   padding: 20px 0;
 
-  background: #333333;
+  background: #1F3A7B ;
 
   transition: all 0.2s ease-in-out;
 
@@ -276,7 +276,7 @@ website:    http://www.themepunch.com
 
   font-size: 13px;
 
-  color: #ffba00;
+  color: #fff ;
 
   margin-right: 10px;
 
@@ -340,7 +340,7 @@ website:    http://www.themepunch.com
 
 .navbar-nav > li > a {
 
-  color: #222222 !important;
+  color: #1F3A7B !important;
 
   font-size: 14px;
 
@@ -366,7 +366,7 @@ website:    http://www.themepunch.com
 
 .navbar-nav > li > a.active {
 
-  color: #ffba00 !important;
+  color: #C0001F  !important;
 
 }
 
@@ -418,7 +418,7 @@ website:    http://www.themepunch.com
 
   background: #ffffff;
 
-  border-top: 2px solid #ffba00;
+  border-top: 2px solid #1F3A7B;
 
   padding: 10px 0;
 
@@ -458,7 +458,7 @@ website:    http://www.themepunch.com
 
   display: block;
 
-  color: #222222;
+  color: #1F3A7B;
 
   font-size: 13px;
 
@@ -474,7 +474,7 @@ website:    http://www.themepunch.com
 
 .navbar-nav li.drop ul.dropdown li a:hover {
 
-  color: #ffba00;
+  color: #C0001F ;
 
 }
 
@@ -544,7 +544,7 @@ header.active .navbar-nav > li > a:hover,
 
 header.active .navbar-nav > li > a.active {
 
-  color: #ffba00 !important;
+  color: #C0001F  !important;
 
 }
 
@@ -676,9 +676,9 @@ header.active .navbar-nav > li > a.active {
 
 p {
 
-  font-size: 14px;
+  font-size: 15px;
 
-  color: #666666;
+  color: #1F3A7B ;
 
   font-family: 'Lato', sans-serif;
 
@@ -722,7 +722,7 @@ p {
 
 .title-section h1 span {
 
-  color: #ffba00;
+  color: #C0001F ;
 
 }
 
@@ -754,13 +754,13 @@ p {
 
 #home-section .tp-caption.small_text.backgroun-col {
 
-  background: #ffba00;
+  background: #C0001F ;
 
   padding: 1em 2em;
 
   font-size: 15px;
 
-  color: #222222;
+  color: #fff;
 
   line-height: 24px;
 
@@ -798,7 +798,7 @@ p {
 
 #home-section .tp-caption.finewide_medium_white span {
 
-  color: #ffba00 !important;
+  color: #C0001F  !important;
 
   text-align: center;
 
@@ -834,10 +834,10 @@ p {
 
 #home-section .tp-caption a.trans-btn:hover {
 
-  color: #ffba00;
+  color: #1F3A7B;
 
-  border: 2px solid #ffba00;
-
+  border: 2px solid #C0001F ;
+  background: rgba(255, 255, 255, .5)
 }
 
 #home-section .tp-caption a.trans-btn2 {
@@ -862,7 +862,7 @@ p {
 
   padding: 0.8em 4em;
 
-  color: #ffba00;
+  color: #C0001F ;
 
   background: #ffffff;
 
@@ -872,7 +872,7 @@ p {
 
   color: #ffffff;
 
-  background: #ffba00;
+  background: #1F3A7B;
 
 }
 
@@ -934,7 +934,7 @@ a.button-one {
 
   padding: 50px 0;
 
-  background: #ffba00;
+  background: #1F3A7B;
 
   text-align: center;
 
@@ -1046,7 +1046,7 @@ a.button-one {
 
   -o-transition: all 0.2s ease-in-out;
 
-  color: #222222;
+  color: #C0001F;
 
 }
 
@@ -1072,7 +1072,7 @@ a.button-one {
 
   margin-bottom: 5px;
 
-  color: #222222;
+  color: #80151B;
 
   font-size: 13px;
 
@@ -1176,7 +1176,7 @@ a.button-one {
 
   -o-transition: all 0.2s ease-in-out;
 
-  color: #222222;
+  color: #1F3A7B;
 
   font-family: 'Montserrat', sans-serif;
 
@@ -1194,9 +1194,9 @@ a.button-one {
 
 .projects-section ul.filter li a:hover {
 
-  color: #ffba00;
+  color: #C0001F ;
 
-  border-bottom: 2px solid #ffba00;
+  border-bottom: 2px solid #C0001F ;
 
 }
 
@@ -1274,13 +1274,13 @@ a.button-one {
 
   -o-transition: all 0.2s ease-in-out;
 
-  color: #222222;
+  color: #1F3A7B ;
 
 }
 
 .project-box .project-post .hover-box h2 a:hover {
 
-  color: #ffba00;
+  color: #C0001F;
 
 }
 
@@ -1390,7 +1390,7 @@ a.button-one {
 
   border-radius: 0px;
 
-  color: #222222;
+  color: #1F3A7B;
 
   font-size: 13px;
 
@@ -1410,7 +1410,7 @@ a.button-one {
 
   border: none;
 
-  color: #ffba00;
+  color: #C0001F;
 
 }
 
@@ -1418,7 +1418,7 @@ a.button-one {
 
   border: none;
 
-  background: #ffba00;
+  background: #C0001F;
 
   color: #ffffff;
 
@@ -1438,7 +1438,7 @@ a.button-one {
 
 .tab-posts-box .tab-pane h3 {
 
-  color: #222222;
+  color: #C0001F;
 
   font-size: 17px;
 
@@ -1578,11 +1578,13 @@ a.button-one {
 
   margin: 0 0 15px;
 
-  color: #ffba00;
+  color: #1F3A7B ;
 
   text-transform: uppercase;
 
   margin-bottom: 2px;
+  
+  text-shadow: 0 0 1px #fff;
 
 }
 
@@ -1610,9 +1612,9 @@ a.button-one {
 
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 
-  background: #ffba00;
+  background: #C0001F ;
 
-  border-color: #ffba00;
+  border-color: #fff;
 
 }
 
@@ -1630,7 +1632,7 @@ a.button-one {
 
   height: 100%;
 
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(34, 34, 34, 0.6);
 
 }
 
@@ -1698,13 +1700,13 @@ a.button-one {
 
   -o-transition: all 0.2s ease-in-out;
 
-  color: #222222;
+  color: #C0001F ;
 
 }
 
 .news-section .news-post h2 a:hover {
 
-  color: #ffba00;
+  color: #1F3A7B;
 
 }
 
@@ -1766,7 +1768,7 @@ a.button-one {
 
 .clients-section h2 {
 
-  color: #222222;
+  color: #C0001F ;
 
   font-size: 17px;
 
@@ -1846,7 +1848,7 @@ a.button-one {
 
   margin-top: 60px;
 
-  border-left: 1px solid #222222;
+  border-left: 1px solid #C0001F ;
 
   padding: 20px 0;
 
@@ -1868,7 +1870,7 @@ a.button-one {
 
   font-weight: 700;
 
-  color: #222222;
+  color: #C0001F ;
 
 }
 
@@ -2012,17 +2014,17 @@ a.button-one {
 
   color: #ffffff;
 
-  border: 1px solid #ffba00;
+  border: 1px solid #C0001F ;
 
-  background: #ffba00;
+  background: #1F3A7B;
 
 }
 
 .accord-elem.active a.accord-link {
 
-  background: #333333;
+  background: #C0001F;
 
-  border: 1px solid #333333;
+  border: 1px solid #C0001F;
 
   border-right: none;
 
@@ -4336,9 +4338,9 @@ footer .up-footer ul.tag-list li a {
 
 footer .up-footer ul.tag-list li a:hover {
 
-  background: #ffba00;
+  background: #C0001F ;
 
-  border: 1px solid #ffba00;
+  border: 1px solid #fff;
 
 }
 
@@ -4442,7 +4444,7 @@ footer .up-footer .info-widget p span {
 
   font-family: 'Montserrat', sans-serif;
 
-  color: #ffba00;
+  color: #C0001F ;
 
 }
 
@@ -4456,7 +4458,7 @@ footer p.copyright {
 
   padding: 25px 0;
 
-  background: #ffba00;
+  background: #1F3A7B;
 
   border-top: 1px dotted #717173;
 
@@ -4970,7 +4972,7 @@ a, a:active, a:focus{
 
   border: none;
 
-  background: #ffba00;
+  background: #C0001F ;
 
   color: #ffffff;
 
@@ -5002,7 +5004,7 @@ a.loadmoreitem:hover , .pagination li a:hover , .pagination li span:hover
 
  {   
 
-     background-color: #404040!important;
+     background-color: #1F3A7B!important;
 
 	 text-decoration:none;
 
