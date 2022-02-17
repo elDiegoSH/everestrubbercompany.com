@@ -903,31 +903,36 @@ p {
 }
 
 a.button-one {
-
+  
   color: #ffffff;
 
   background: transparent;
-
+  
   font-size: 12px;
-
+  
   font-weight: 700;
-
+  
   font-family: 'Montserrat', sans-serif;
-
+  
   text-transform: uppercase;
-
+  
   border: 2px solid #ffffff;
-
+  
   -webkit-border-radius: 2px;
-
+  
   -moz-border-radius: 2px;
-
+  
   -o-border-radius: 2px;
-
+  
   border-radius: 2px;
-
+  
   padding: 10px 35px;
+}
 
+a.button-one:hover {
+  background: #C0001F;
+  border: 2px solid #C0001F;
+  box-shadow: 0 0 8px #000;
 }
 
 .banner-section {
@@ -1756,7 +1761,7 @@ a.button-one {
 
 .news-section .news-post > a:hover {
 
-  color: #ffba00;
+  color: #C0001F;
 
 }
 
