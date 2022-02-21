@@ -244,16 +244,20 @@ website:    http://www.themepunch.com
 
   padding: 20px 0;
 
-  background: #1F3A7B ;
+  /* background: #1F3A7B ; */
+  background-image: linear-gradient(to top, rgba(189, 195, 199, 0.6), rgba(44, 62, 80, 0.61)), url(../images/bg-top-line.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   transition: all 0.2s ease-in-out;
-
+  
   -moz-transition: all 0.2s ease-in-out;
-
+  
   -webkit-transition: all 0.2s ease-in-out;
-
+  
   -o-transition: all 0.2s ease-in-out;
-
+  
   overflow: hidden;
 
 }
@@ -325,6 +329,37 @@ website:    http://www.themepunch.com
   color: #ffba00;
 
 }
+
+.sombra {
+  font-size: 2.0rem !important;
+  text-shadow: 0px 0px 10px #000 ;
+}
+
+a.derecha {
+  display: block;
+  width: 130px;
+  text-align: center;
+  margin-left: auto;
+  color: #fff;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px 35px;
+}
+
+a.derecha:hover {
+  background: #C0001F;
+  border: 2px solid #C0001F;
+  box-shadow: 0 0 8px #000;
+}
+
 
 .navbar-nav {
 
@@ -939,8 +974,12 @@ a.button-one:hover {
 
   padding: 50px 0;
 
-  background: #1F3A7B;
-
+  /* background: #1F3A7B; */
+  background-image: linear-gradient(to bottom, rgba(75, 121, 161, 0.75), rgba(40, 62, 81, 0.75)), url(../images/bg-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   text-align: center;
 
 }
@@ -4067,7 +4106,7 @@ a.button-one:hover {
 
 #contact-form .message,
 
-.comment-form .message,
+.comment-form .message
 
 {
 
@@ -4081,9 +4120,7 @@ a.button-one:hover {
 
 #contact-form .message.error,
 
-.comment-form .message.error,
-
-{
+.comment-form .message.error {
 
   color: #e74c3c;
 
@@ -4095,7 +4132,7 @@ a.button-one:hover {
 
 #contact-form .message.success,
 
-.comment-form .message.success,
+.comment-form .message.success
 
 {
 
