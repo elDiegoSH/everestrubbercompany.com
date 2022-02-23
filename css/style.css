@@ -453,7 +453,7 @@ a.derecha:hover {
 
   background: #ffffff;
 
-  border-top: 2px solid #1F3A7B;
+  border-top: 2px solid #C0001F;
 
   padding: 10px 0;
 
@@ -1096,7 +1096,7 @@ a.button-one:hover {
 
 .services-offer-section .offer-post h2 a:hover {
 
-  color: #ffba00;
+  color: #1F3A7B;
 
 }
 
@@ -1150,6 +1150,14 @@ a.button-one:hover {
 
   margin-right: 8px;
 
+}
+
+.services-offer-section .offer-post ul.offer-list li a {
+  color: #80151B;
+}
+
+.services-offer-section .offer-post ul.offer-list li a:hover {
+  color: #1F3A7B;
 }
 
 .projects-section {
@@ -1354,8 +1362,6 @@ a.button-one:hover {
 
 }
 
-
-
 .about-section img {
 
   width: 100%;
@@ -1366,7 +1372,7 @@ a.button-one:hover {
 
 .about-section h2 {
 
-  color: #222222;
+  color: #C0001F;
 
   font-size: 17px;
 
