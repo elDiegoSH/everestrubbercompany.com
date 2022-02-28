@@ -1923,6 +1923,25 @@ a.button-one:hover {
 
 }
 
+.sin{
+  list-style: none;
+  padding: 0;
+}
+
+.blanco {
+  color: white;
+  font-family: Montserrat;
+}
+
+.blanco:hover {
+  color: #ccc;
+  cursor: pointer !important;
+}
+
+.monserrat {
+  font-family: Montserrat;
+}
+
 .faqs-section {
 
   padding: 40px 0 60px;
@@ -4327,8 +4346,8 @@ footer .up-footer p {
 
 footer .up-footer img {
 
-  margin-top: 20px;
-
+  margin: 20px 0;
+  margin-left: 0;
 }
 
 footer .up-footer ul.tag-list {
