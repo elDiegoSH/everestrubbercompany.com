@@ -2488,7 +2488,7 @@ a.button-one:hover {
 
   margin-top: 150px;
 
-  padding: 130px 0;
+  padding: 100px 0;
 
   position: relative;
 
@@ -2517,9 +2517,9 @@ a.button-one:hover {
 
 .page-banner-section h2 {
 
-  color: #222222;
+  color: #fff;
 
-  font-size: 17px;
+  font-size: 2.5rem;
 
   font-family: 'Montserrat', sans-serif;
 
@@ -2567,13 +2567,13 @@ a.button-one:hover {
 
   font-family: 'Montserrat', sans-serif;
 
-  color: #222222;
+  color: #fff;
 
 }
 
 .page-banner-section ul.page-depth li a:hover {
 
-  color: #666666;
+  color: #C0001F;
 
 }
 
@@ -2585,7 +2585,7 @@ a.button-one:hover {
 
   font-family: 'Montserrat', sans-serif;
 
-  color: #666666;
+  color: #fff;
 
   margin-right: 5px;
 
@@ -2613,7 +2613,7 @@ a.button-one:hover {
 
   top: 0;
 
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(31, 59, 123, 0.6);
 
 }
 
@@ -4071,6 +4071,8 @@ a.button-one:hover {
 
   font-family: 'Montserrat', sans-serif;
 
+  border-radius: 6px;
+
 }
 
 #contact-form input[type="text"]:focus, #contact-form input[type="email"]:focus, 
@@ -4081,7 +4083,7 @@ a.button-one:hover {
 
 .comment-form textarea:focus {
 
-  border: 1px solid #ffba00;
+  border: 1px solid #1F3A7B;
 
 }
 
@@ -4103,7 +4105,7 @@ a.button-one:hover {
 
   border: none;
 
-  background: #ffba00;
+  background: #1F3A7B;
 
   color: #ffffff;
 
@@ -5145,6 +5147,8 @@ a.loadmoreitem:hover , .pagination li a:hover , .pagination li span:hover
     display: inline-block !important;
 
     font-weight: normal;
+
+    font-family: Montserrat;
 
 }
 
