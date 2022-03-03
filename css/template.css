@@ -81,7 +81,7 @@ div.advanced-dropdown a{
 	-o-transition: background-color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out;
 
-	background: #1F3A7B;
+	background: #C0001F;
 	color: #ffffff;
 	border-radius: 3px;
 	padding-left: 12px;
@@ -92,7 +92,7 @@ div.advanced-dropdown a{
 }
 
 #scrollToTop:hover {
-	background: #C0001F ;
+	background: #1F3A7B ;
 	color: #ffffff;
 }
 
