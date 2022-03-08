@@ -246,7 +246,7 @@ website:    http://www.themepunch.com
 
   /* background: #1F3A7B ; */
   /* background-image: linear-gradient(to top, rgba(189, 195, 199, 0.6), rgba(44, 62, 80, 0.61)), url(../images/bg-top-line.webp); */
-  background-image: linear-gradient(to bottom, rgba(75, 121, 161, 0.3), rgba(40, 62, 81, 0.3)), url(../images/bg-top-line-2.webp);
+  background-image: linear-gradient(to bottom, rgba(75, 121, 161, 0.7), rgba(40, 62, 81, 0.5)), url(../images/bg-top-line-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -842,6 +842,28 @@ p {
 
 }
 
+/* H1 EN SLIDER DIEGOSH */
+#home-section .tp-caption.finewide_medium_white h1 {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  background-color: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-color: transparent;
+  border-style: none;
+  text-align: left;
+}
+
+#home-section .tp-caption.finewide_medium_white h1 span {
+  color: #C0001F  !important;
+  text-align: center;
+}/* TERMINA H1 EN SLIDER DIEGOSH */
+
 #home-section .tp-caption a.trans-btn {
 
   color: #ffffff;
@@ -928,7 +950,8 @@ p {
 
   height: 100%;
 
-  background: rgba(51, 51, 51, 0.6);
+  background: rgba(0, 0, 0, 0.65);
+  /* background: rgba(31, 59, 123, 0.644); */
 
   z-index: 2;
 
@@ -988,8 +1011,6 @@ a.button-one:hover {
 }
 
 .banner-section h2 {
-
-  color: #222222;
 
   font-size: 17px;
 
@@ -1561,9 +1582,7 @@ a.button-one:hover {
 
 }
 
-.testimonial-section .title-section h1 {
-
-  color: #222222;
+/* .testimonial-section .title-section h1 {
 
   font-size: 30px;
 
@@ -1579,9 +1598,25 @@ a.button-one:hover {
 
   margin-bottom: 00px;
 
-  color: #ffffff;
+  color: #fff;
 
+} */
+
+/* H4 TESTIMONIALES DIEGOSH */
+.testimonial-section .title-section h4 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 00px;
+  color: #fff;
 }
+
+.testimonial-section .title-section h4 span {
+  color: #C0001F;
+}/* TERMINA H4 TESTIMONIALES DIEGOSH */
 
 .testimonial-section .testimonial-box {
 
@@ -1683,11 +1718,9 @@ a.button-one:hover {
 
   height: 100%;
 
-  background: rgba(31, 59, 123, 0.6);
+  background: rgba(0, 0, 0, 0.4);
 
 }
-
-
 
 .news-section h2 {
 
