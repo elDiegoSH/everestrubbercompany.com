@@ -100,7 +100,7 @@ $.fn.flickr = function(o){
 							break;
 
 						case 'b':
-							var h = 'https://farm'+photo['farm']+'.static.flickr.com/'+photo['server']+'/'+photo['id']+'_'+photo['secret'] + '_b.jpg';
+							var h = 'https://farm'+photo['farm']+'.static.flickr.com/'+photo['server']+'/'+photo['id']+'_'+photo['secret'] + '_b.webp';
 							break;
 
 						case 'o':
@@ -108,7 +108,7 @@ $.fn.flickr = function(o){
 							break;
 
 						default:
-							h += photo['secret'] + '.jpg';
+							h += photo['secret'] + '.webp';
 					};
 
 					list.append('<li><a href="'+h+'" '+s.attr+' class="'+s.zoom_class+'" rel="'+s.zoom_class+'" title="'+photo['title']+'"><img src="'+t+'" alt="'+photo['title']+'" /></a></li>');

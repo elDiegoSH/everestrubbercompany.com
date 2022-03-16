@@ -682,7 +682,7 @@ body {
 }
 
 body.patt1 {
-  background: url('../images/patterns/patt1.jpg');
+  background: url('../images/patterns/patt1.webp');
 }
 
 body.patt1 #container,
@@ -721,7 +721,7 @@ body.patt6 {
 }
 
 body.patt7 {
-  background: url('../upload/slide/1.jpg') center fixed;
+  background: url('../upload/slide/1.webp') center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -729,7 +729,7 @@ body.patt7 {
 }
 
 body.patt8 {
-  background: url('../upload/others/patt1.jpg') center fixed;
+  background: url('../upload/others/patt1.webp') center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -737,7 +737,7 @@ body.patt8 {
 }
 
 body.patt9 {
-  background: url('../upload/others/patt2.jpg') center fixed;
+  background: url('../upload/others/patt2.webp') center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
