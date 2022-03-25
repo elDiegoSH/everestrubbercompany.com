@@ -950,7 +950,7 @@ p {
 
   height: 100%;
 
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.55);
   /* background: rgba(31, 59, 123, 0.644); */
 
   z-index: 2;
@@ -1031,6 +1031,18 @@ a.button-one:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   margin-left: 60px;
+}
+
+.banner-section span {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0 0 15px;
+  margin-bottom: 0;
+  color: #f2f2f2;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-shadow: 0 0 10px #000;
 }/* DIEGOSH BANNER SECTION DE H2 A H3 */
 
 .services-offer-section {
