@@ -5835,3 +5835,12 @@ ul.layout-color li a.blue2 {
  p {
    font-family: montserrat;
  }
+
+ .img-100 {
+	width: 100%;
+	object-fit: cover
+}
+
+.card-body {
+	margin-bottom: 40px;
+}
