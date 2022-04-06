@@ -205,18 +205,21 @@ body
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <form id="contact-form" action="#" method="post" class="form-validate form-horizontal">
+                        <form id="contact-form" class="form-validate form-horizontal" id="formulario">
                             <h2>Send an Email. All fields with an asterisk (*) are required.</h2>
+                            <div class="alert alert-success d-none" id="mensajeExito">Mensaje enviado con éxito</div>
+                            <div class="alert alert-danger d-none" id="mensajeError"></div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title="&lt;strong&gt;Name&lt;/strong&gt;&lt;br /&gt;Your name.">Name<span class="star">&#160;*</span></label>
-                                    <input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required" size="30" required aria-required="true" />
+                                    <label for="name" class="hasTooltip required" >Name<span class="star">&#160;*</span></label>
+                                    <input type="text" name="name" id="name" value="" class="required" required/>
                                 </div>
                                 <div class="col-md-6">
-                                    <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasTooltip required" title="&lt;strong&gt;Email&lt;/strong&gt;&lt;br /&gt;Email Address for contact.">Email<span class="star">&#160;*</span></label>
-                                    <input type="email" name="jform[contact_email]" class="validate-email required" id="jform_contact_email" value="" size="30" required aria-required="true" />
+                                    <label for="email" class="hasTooltip required" >Email<span class="star">&#160;*</span></label>
+                                    <input type="email" name="email" class="validate-email required" id="email" value="" required aria-required="true" />
                                 </div>
                             </div>
+                            
                             <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required" title="&lt;strong&gt;Message&lt;/strong&gt;&lt;br /&gt;Enter your message here.">Message<span class="star">&#160;*</span></label>
                             <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required" required aria-required="true" ></textarea>
                             <div class="control-group">
@@ -239,40 +242,7 @@ body
     </div>
   </section>
     <!-- Content Section --> 
-  
-  <!-- team section -->
-    <!-- team section --> 
-  
-  <!-- banner-section 
-			================================================== -->
-    <!-- End banner section --> 
-  
-  <!-- services-offer 
-			================================================== -->
-  
-    <!-- End services-offer section --> 
-  
-  <!-- projects 
-			================================================== -->
-    <!-- End projects --> 
-  
-  <!-- about section 
-			================================================== -->
-  
-    <!-- End about section --> 
-  
-  <!-- testimonial-section 
-			================================================== -->
-    <!-- End testimonial section --> 
-  
-  <!-- news-section 
-			================================================== -->
-    <!-- End news section --> 
-  
-  <!-- clients-section 
-			================================================== -->
-    <!-- End clients section --> 
-  
+    
 <!-- footer 
 ================================================== -->
 <footer>

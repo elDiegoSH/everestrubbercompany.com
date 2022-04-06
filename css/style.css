@@ -4107,7 +4107,9 @@ h3.sin-padding {
 .comment-form textarea {
 
   width: 100%;
-
+  max-width: 100%;
+  min-width: 100%;
+  
   padding: 10px 20px;
 
   border: 1px solid #dedede;
@@ -4150,7 +4152,10 @@ h3.sin-padding {
 
 .comment-form textarea {
 
-  height: 146px;
+  height: 120px;
+  max-height: 120px;
+  min-height: 120px;
+
 
 }
 
@@ -4231,6 +4236,7 @@ h3.sin-padding {
   border: 1px solid #29b504;
 
 }
+
 
 /*-------------------------------------------------*/
 
@@ -5844,3 +5850,4 @@ ul.layout-color li a.blue2 {
 .card-body {
 	margin-bottom: 40px;
 }
+
