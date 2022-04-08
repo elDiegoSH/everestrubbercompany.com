@@ -20,6 +20,7 @@ function enviar(){
 function correcto(){
     $("#mensajeExito").removeClass("d-none");
     $("#mensajeError").addClass("d-none");
+    formulario.reset();
 }
 function phperror(texto){
     $("#mensajeError").removeClass("d-none");
