@@ -4098,7 +4098,8 @@ h3.sin-padding {
 
 }
 
-#contact-form input[type="text"], #contact-form input[type="email"], 
+/*** ESTILOS DEL FORMULARIO ORIGINAL ***/
+/* #contact-form input[type="text"], #contact-form input[type="email"], 
 
 .comment-form input[type="text"], .comment-form input[type="email"], 
 
@@ -4224,6 +4225,147 @@ h3.sin-padding {
 }
 
 #contact-form .message.success,
+
+.comment-form .message.success
+
+{
+
+  color: #29b504;
+
+  background: rgba(63, 220, 21, 0.4);
+
+  border: 1px solid #29b504;
+
+} */
+
+/*** TERMINAN ESTILOS DEL FORMULARIO ORIGINAL ***/
+
+#formulario input[type="text"], #formulario input[type="email"], 
+
+.comment-form input[type="text"], .comment-form input[type="email"], 
+
+#formulario textarea,
+
+.comment-form textarea {
+
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  
+  padding: 10px 20px;
+
+  border: 1px solid #dedede;
+
+  margin-bottom: 20px;
+
+  outline: none;
+
+  transition: all 0.2s ease-in-out;
+
+  -moz-transition: all 0.2s ease-in-out;
+
+  -webkit-transition: all 0.2s ease-in-out;
+
+  -o-transition: all 0.2s ease-in-out;
+
+  color: #666666;
+
+  font-size: 13px;
+
+  font-family: 'Montserrat', sans-serif;
+
+  border-radius: 6px;
+
+}
+
+#formulario input[type="text"]:focus, #formulario input[type="email"]:focus, 
+
+.comment-form input[type="text"]:focus, .comment-form input[type="email"], 
+
+#formulario textarea:focus,
+
+.comment-form textarea:focus {
+
+  border: 1px solid #1F3A7B;
+
+}
+
+#formulario textarea,
+
+.comment-form textarea {
+
+  height: 120px;
+  max-height: 120px;
+  min-height: 120px;
+
+
+}
+
+#formulario button[type="submit"], #formulario input[type="submit"], 
+
+.comment-form button[type="submit"], .comment-form input[type="submit"] {
+
+  padding: 12px 30px;
+
+  outline: none;
+
+  border: none;
+
+  background: #1F3A7B;
+
+  color: #ffffff;
+
+  font-size: 13px;
+
+  font-family: 'Montserrat', sans-serif;
+
+  transition: all 0.2s ease-in-out;
+
+  -moz-transition: all 0.2s ease-in-out;
+
+  -webkit-transition: all 0.2s ease-in-out;
+
+  -o-transition: all 0.2s ease-in-out;
+
+  margin: 10px 0;
+
+}
+
+#formulario input[type="submit"]:hover,
+
+.comment-form input[type="submit"]:hover {
+
+  opacity: 0.7;
+
+}
+
+#formulario .message,
+
+.comment-form .message
+
+{
+
+  padding: 10px 20px;
+
+  font-size: 13px;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#formulario .message.error,
+
+.comment-form .message.error {
+
+  color: #e74c3c;
+
+  background: rgba(246, 80, 80, 0.4);
+
+  border: 1px solid #e74c3c;
+
+}
+
+#formulario .message.success,
 
 .comment-form .message.success
 
@@ -5849,5 +5991,9 @@ ul.layout-color li a.blue2 {
 
 .card-body {
 	margin-bottom: 40px;
+}
+
+.d-none {
+  display: none;
 }
 

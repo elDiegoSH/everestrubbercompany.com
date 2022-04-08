@@ -7,35 +7,35 @@ $error = "";
 
 //VALIDANDO NOMBRE
 if(empty($_POST["nombre"])){
-    $error = 'Ingresa un nombre </br>';
+    $error = 'Enter your name</br>';
 }else{
     $nombre = $_POST["nombre"];
     $nombre = filter_var($nombre, FILTER_SANITIZE_STRING);
     $nombre = trim($nombre);
     if($nombre==''){
-        $error .= 'Nombre está vacio</br>';
+        $error .= 'Name is empty</br>';
     }
 }
 //VALIDANDO E-MAIL
 if(empty($_POST["email"])){
-    $error .= 'Ingresa un E-mail</br>';
+    $error .= 'Enter your email</br>';
 }else{
     $email = $_POST["email"];
     if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
-        $error .= 'Ingresa un E-mail verdadero</br>';
+        $error .= 'Enter a true email</br>';
     }else{
         $email = filter_var($email,FILTER_SANITIZE_EMAIL);
     }
 }
 //VALIDANDO MENSAJE
 if(empty($_POST["mensaje"])){
-    $error .= 'Ingresa un mensaje </br>';
+    $error .= 'Write your message</br>';
 }else{
     $mensaje = $_POST["mensaje"];
     $mensaje = filter_var($mensaje, FILTER_SANITIZE_STRING);
     $mensaje = trim($mensaje);
     if($mensaje==''){
-        $error .= 'Mensaje está vacio</br>';
+        $error .= 'Message is empty</br>';
     }
 }
 
@@ -54,11 +54,11 @@ $cuerpo .= "\n";
 
 //DIRECCIÓN
 $enviarA = 'dsanchez@grupoeverest.com.mx'; 
-$asunto = 'NUEVO CONTACTO A PRODUCTOS DE HULE';
+$asunto = 'NEW CONTACT TO EVEREST RUBBER';
 
 //ENVIAR CORREO
 if($error == ''){
-    $success = mail($enviarA,$asunto,$cuerpo,'de: '.$email);
+    $success = mail($enviarA,$asunto,$cuerpo,'de: '.$email,);
     echo 'exito';
 }else{
     echo $error;
