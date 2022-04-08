@@ -1,6 +1,6 @@
 document.addEvent('domready', function() {
 	new Skyline_ScrollToTop({
-		'image':		'../images/back_to_top_btn.png',
+		'image':		'https://www.everestrubber.com/images/back_to_top_btn.png',
 		'text':			'',
 		'title':		'',
 		'className':	'scrollToTop',
