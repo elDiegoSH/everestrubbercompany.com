@@ -26,3 +26,4 @@ function phperror(texto){
     $("#mensajeError").removeClass("d-none");
     $("#mensajeError").html(texto);
 }
+
