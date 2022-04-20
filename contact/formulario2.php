@@ -6,10 +6,10 @@ $mensaje = "";
 $error = "";
 
 //VALIDANDO NOMBRE
-if(empty($_POST["nombre"])){
+if(empty($_POST["nombre2"])){
     $error = 'Enter your name</br>';
 }else{
-    $nombre = $_POST["nombre"];
+    $nombre = $_POST["nombre2"];
     $nombre = filter_var($nombre, FILTER_SANITIZE_STRING);
     $nombre = trim($nombre);
     if($nombre==''){
@@ -17,10 +17,10 @@ if(empty($_POST["nombre"])){
     }
 }
 //VALIDANDO E-MAIL
-if(empty($_POST["email"])){
+if(empty($_POST["email2"])){
     $error .= 'Enter your email</br>';
 }else{
-    $email = $_POST["email"];
+    $email = $_POST["email2"];
     if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
         $error .= 'Enter a true email</br>';
     }else{
@@ -28,10 +28,10 @@ if(empty($_POST["email"])){
     }
 }
 //VALIDANDO MENSAJE
-if(empty($_POST["mensaje"])){
+if(empty($_POST["mensaje2"])){
     $error .= 'Write your message</br>';
 }else{
-    $mensaje = $_POST["mensaje"];
+    $mensaje = $_POST["mensaje2"];
     $mensaje = filter_var($mensaje, FILTER_SANITIZE_STRING);
     $mensaje = trim($mensaje);
     if($mensaje==''){
