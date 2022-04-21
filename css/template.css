@@ -88,7 +88,7 @@ div.advanced-dropdown a{
 	padding-right: 12px;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	right: 20px; bottom: 50%;
+	right: 20px; bottom: 60%;
 }
 
 #scrollToTop:hover {
@@ -98,5 +98,5 @@ div.advanced-dropdown a{
 
 #scrollToTop > img {
 	display: block;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
