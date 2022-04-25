@@ -6001,3 +6001,11 @@ ul.layout-color li a.blue2 {
 .d-none {
   display: none;
 }
+
+.pal-blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
