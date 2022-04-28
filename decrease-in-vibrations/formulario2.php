@@ -59,7 +59,7 @@ $cuerpo .= "\n";
 
 //DIRECCIÓN
 $enviarA = 'dsanchez@grupoeverest.com.mx, dperez@grupoeverest.com.mx'; 
-$asunto = 'New Quote From Decrease in Vibrations';
+$asunto = 'New Quote From Acoustic insulation for walls - Levelers for machinery';
 
 //ENVIAR CORREO
 if($error == ''){
