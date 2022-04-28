@@ -4,7 +4,7 @@ $nombre = "";
 $email = "";
 $mensaje = "";
 $error = "";
-$pagina = "https://www.everestrubber.com/blog/neocork-plates-for-vibration-control/";
+$pagina = "https://www.everestrubber.com/blog/floors-for-gym/";
 
 //VALIDANDO NOMBRE
 if(empty($_POST["nombre2"])){
@@ -59,7 +59,7 @@ $cuerpo .= "\n";
 
 //DIRECCIÓN
 $enviarA = 'dsanchez@grupoeverest.com.mx, dperez@grupoeverest.com.mx'; 
-$asunto = 'New Quote From Blog: Neocork vibration control plates';
+$asunto = 'New Quote From Blog: Benefits of rubber flooring for gym';
 
 //ENVIAR CORREO
 if($error == ''){
