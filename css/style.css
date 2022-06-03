@@ -6010,3 +6010,11 @@ ul.layout-color li a.blue2 {
   flex-wrap: wrap;
 }
 
+.video-person {
+  position: relative;
+  width: 70%;
+  height: 40%;
+  margin: 10px 0;
+  text-align: center;
+}
+
