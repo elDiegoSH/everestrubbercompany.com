@@ -4399,7 +4399,7 @@ h3.sin-padding {
 
   position: relative;
 
-  background: linear-gradient(to top, rgba(0, 4, 40, 0.6), rgba(0, 78, 146, 0.6)), url('../images/error.webp') center fixed;
+  background: linear-gradient(to top, rgba(0, 4, 40, 0.5), rgba(0, 78, 146, 0.3)), url('../images/404.jpg') center fixed;
 
   background-size: cover;
 
