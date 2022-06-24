@@ -6094,3 +6094,13 @@ ul.layout-color li a.blue2 {
 .rojito {
   color: red;
 }
+
+.gde {
+  font-size: 30px !important;
+  font-weight: bolder;
+  font-style: italic;
+  color: #fff;
+  margin: -30px 0 30px 0;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.671));
+  
+}
